@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EZ Cooking</title>
+<script>
+var images = new Array()
+images[0] = new Image()
+images[0].src = "picture1 (1).jpg"
+images[1] = new Image()
+images[1].src = "picture2.jpg"
+</script>
+</head>
+<body style = "background-color:rgb(202, 204, 211);">
+
+<header>
+<h1> EZ Cooking </h1>
+</header>
+
+
+<ul>
+<li><a href="EZ Cooking.html">Home</a></li>
+<li><a href="About.html">About</a></li>
+<li><a href="OurTeam.html">Our Team</a></li>
+</ul>
+
+<section>
+<h1> Home </h1>
+<p> Ever wanted to have all of your recipes in one place? Well now you can with EZ Cooking!
+<br>
+To learn more about our product or our team click on the links to the left. </p>
+<a href='javascript:clickable()'><center><img src="http://emojipedia-us.s3.amazonaws.com/cache/46/f8/46f829ff6c871002f7931b456d876962.png" id="rotate" width=800 height=600 /></a>
+
+<script>
+var counter = 0
+var timer = 5 // in seconds
+
+function autorotate() {
+	clickable()
+	setTimeout("autorotate()",timer*1000)
+}
+
+function clickable() {
+	if (counter < images.length - 1)
+		counter++
+	else
+		counter = 0
+	document.getElementById('rotate').src = images[counter].src	
+}
+autorotate()
+</script>
+</section>
+
+<footer>
+Copyright 'n stuff
+</footer>
+
+<style>
+header {
+    background-color:rgb(100, 55, 130);
+    color:white;
+    text-align:center;
+	font-family:papyrus;
+	font-size:125%;
+    padding:5px;
+}
+ul {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:100%;
+    width:175px;
+    float:left;
+    padding:5px; 
+	font-family:papyrus;
+	font-size:110%;
+	margin: 0;
+	position: fixed;
+	overflow: auto;	
+}
+li a {
+    display:block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+section {
+    float:left;
+    padding:10px;
+	font-family:papyrus;
+	font-size:125%;
+	left:185px;
+	position: relative;
+
+}
+footer {
+    background-color:rgb(100, 55, 130);
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+	font-family:papyrus;
+	bottom: 0;
+	width:100%;
+}
+</style>
+</body>
+</html>
