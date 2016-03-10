@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E4512968-32E2-4235-9ED1-BF93B2862CFC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>playground</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5E8C37171D25386BBE180DDA5A0E083836C3980A</key>
+		<string>https://github.com/KathLevi/EZ-Cooking-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EZ_Cooking/MyPlayground.playground/playground.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5E8C37171D25386BBE180DDA5A0E083836C3980A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KathLevi/EZ-Cooking-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5E8C37171D25386BBE180DDA5A0E083836C3980A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5E8C37171D25386BBE180DDA5A0E083836C3980A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EZ-Cooking</string>
+		</dict>
+	</array>
+</dict>
+</plist>
